@@ -1,0 +1,89 @@
+textarea{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    resize: none;
+    padding: 20px;
+    
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.bold{
+    font-weight:bold;
+}
+.italic{
+    font-style: italic;
+    
+}
+.barre{
+    text-decoration:line-through;
+}
+.droite{
+    text-align: right;
+}
+.gauche{
+    text-align: left;
+}
+.centre{
+    text-align: center;
+}
+.justifie{
+    text-align:justify;
+}
+button, #elcolor, #eltaille {
+position: relative;
+bottom: 488px;
+left: 496px;
+cursor: pointer;
+margin: 2px;
+outline: none;
+border-style: none;
+background-color: rgba(62, 62, 62, 0.455);
+border: solid 1px white;
+border-radius: 5px;
+
+}
+
+button, #eltaille {
+    padding: 8px;
+}
+
+button:hover, #elcolor:hover, #eltaille:hover {
+    background-color: black;
+    color: white;
+} 
+
+#eltaille {
+    width: 40px;
+}
+
+
+.zonetexte {
+    margin-top: 100px;
+    background-color: rgba(202, 202, 202, 0.444);
+    padding-top: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    border-radius: 100px;
+}
+
+.elbold {
+    font-weight: bold;
+}
+
+.elitalic {
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.elbarre {
+    text-decoration: line-through;
+}
